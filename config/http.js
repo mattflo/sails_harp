@@ -8,6 +8,8 @@
  * For more information on configuration, check out:
  * http://sailsjs.org/#/documentation/reference/sails.config/sails.config.http.html
  */
+var harp = require('harp'),
+express = require('express');
 
 module.exports.http = {
 
@@ -21,6 +23,10 @@ module.exports.http = {
   *                                                                           *
   ****************************************************************************/
 
+  customMiddleware: function (app) {
+    app.use(express.static(__dirname + "../../public"));
+    app.use(harp.mount(__dirname + "../../public"));
+  },
   // middleware: {
 
   /***************************************************************************
