@@ -15,10 +15,11 @@ important bits can be found in this [commit](https://github.com/mattflo/sails_ha
 
 ## Try it out
 
-1. `git clone https://github.com/mattflo/sails_harp`
-2. `cd sails_harp`
-3. `sails lift`
-4. `open http://localhost:1337`
+* `git clone https://github.com/mattflo/sails_harp`
+* `cd sails_harp`
+* `sails lift`
+* `open http://localhost:1337` - you should see harp
+* `open http://localhost:1337/user` - you should see sails empty user - []
 
 ## Steps
 
