@@ -31,3 +31,7 @@ important bits can be found in this [commit](https://github.com/mattflo/sails_ha
 ## Sources
 * http://harpjs.com/docs/environment/lib
 * http://sailsjs.org/#!/documentation/concepts/Middleware
+
+## Versions
+* sails 0.11.0
+* harp 0.17.0
